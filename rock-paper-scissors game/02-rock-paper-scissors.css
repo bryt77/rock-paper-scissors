@@ -7,6 +7,11 @@ body{
     font-size: 30px;
     font-weight: bold;
 }
+.Title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .move-icon{
     height: 50px;
 }
