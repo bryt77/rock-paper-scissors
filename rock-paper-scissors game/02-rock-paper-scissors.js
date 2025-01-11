@@ -65,9 +65,9 @@ let score = JSON.parse(localStorage.getItem('score'));
 
                 document.querySelector('.js-moves').innerHTML 
                 = `You
-                <img src="emojis/${playerMove}-emoji.png"
+                <img src="rock-paper-scissors game/emojis/${playerMove}-emoji.png"
                 class="move-icon">
-                <img src="emojis/${computerMove}-emoji.png" 
+                <img src="rock-paper-scissors game/emojis/${computerMove}-emoji.png" 
                 class="move-icon">
                 Computer`;
 
